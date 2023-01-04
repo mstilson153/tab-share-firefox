@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Share",
+  "version": "1.0",
+
+  "description": "Generates a QR code of the URL of the current tab that can be scanned by a smart phone or tablet.",
+  "homepage_url": "https://github.com/mstilson153/tab-share-firefox",
+  "icons": {
+    "48": "icons/TabShare-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/TabShare-32.png",
+    "default_title": "Tab Share",
+    "default_popup": "popup/index.html"
+  }
+}
