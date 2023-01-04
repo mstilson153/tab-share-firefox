@@ -6,7 +6,10 @@
   "description": "Generates a QR code of the URL of the current tab that can be scanned by a smart phone or tablet.",
   "homepage_url": "https://github.com/mstilson153/tab-share-firefox",
   "icons": {
-    "48": "icons/TabShare-48.png"
+    "96": "icons/TabShare-96.png",
+    "64": "icons/TabShare-64.png",
+    "48": "icons/TabShare-48.png",
+    "32": "icons/TabShare-32.png"
   },
 
   "permissions": [
