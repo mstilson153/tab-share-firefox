@@ -1,0 +1,21 @@
+.wrapper .qr-code{
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    padding: 33px 0;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.wrapper .qr-code img{
+   width: 200px;
+   height: auto;
+}
+
+.wrapper.active .qr-code
+{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.5s ease;
+}
