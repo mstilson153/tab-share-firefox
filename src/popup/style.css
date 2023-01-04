@@ -1,21 +1,33 @@
-.wrapper .qr-code{
-    display: flex;
-    opacity: 0;
-    pointer-events: none;
-    padding: 33px 0;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.wrapper .qr-code img{
-   width: 200px;
-   height: auto;
+body {
+    width: 200px;
+    background-color: rgb(28, 27, 34);
 }
 
-.wrapper.active .qr-code
-{
-    opacity: 1;
-    pointer-events: auto;
-    transition: opacity 0.5s 0.5s ease;
+#banner {
+    height: auto;
+    background-color: rgb(70, 6, 131);
+    border-radius: 18px;
+}
+
+#banner h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#GenerateButton {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#qr-code{
+    display: none;
+    background-color:  white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#qr-code img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

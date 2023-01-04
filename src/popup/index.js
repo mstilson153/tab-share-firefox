@@ -1,4 +1,4 @@
-qrImg = document.querySelector(".qr-code img")
+qrImg = document.querySelector("#qr-code img")
 generateButton = document.querySelector("#GenerateButton")
 
 generateButton.addEventListener("click",()=>{
@@ -7,4 +7,5 @@ generateButton.addEventListener("click",()=>{
     console.log(tab.url);
     qrImg.src = `https://api.qrserver.com/v1/create-qr-code/?size=170x170&data=${tab.url}`;
   }, console.error) 
+  document.getElementById('qr-code').style.display = 'block'
 })
